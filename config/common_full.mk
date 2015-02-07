@@ -1,10 +1,10 @@
-# Inherit common CM stuff
-$(call inherit-product, vendor/cm/config/common.mk)
+# Inherit common Glade stuff
+$(call inherit-product, vendor/glade/config/common.mk)
 
-# Include CM audio files
-include vendor/cm/config/cm_audio.mk
+# Include Glade audio files
+include vendor/glade/config/glade_audio.mk
 
-# Optional CM packages
+# Optional Glade packages
 PRODUCT_PACKAGES += \
     Galaxy4 \
     HoloSpiralWallpaper \
@@ -18,7 +18,7 @@ PRODUCT_PACKAGES += \
     SoundRecorder \
     PhotoPhase
 
-# Extra tools in CM
+# Extra tools in Glade
 PRODUCT_PACKAGES += \
     vim \
     zip \
