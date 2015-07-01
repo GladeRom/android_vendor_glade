@@ -136,7 +136,7 @@ PRODUCT_PACKAGES += \
 # Custom Glade packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    Trebuchet \
+    GladeLauncher \
     AudioFX \
     GladeWallpapers \
     Eleven \
