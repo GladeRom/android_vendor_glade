@@ -140,7 +140,8 @@ PRODUCT_PACKAGES += \
     AudioFX \
     GladeWallpapers \
     Eleven \
-    LockClock
+    LockClock \
+    KernelAdiutor
 
 # Glade Platform Library
 PRODUCT_PACKAGES += \
