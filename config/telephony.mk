@@ -8,10 +8,9 @@ PRODUCT_COPY_FILES += \
 
 # Telephony packages
 PRODUCT_PACKAGES += \
-    Mms \
+    SMSSecure \
     Stk \
-    CellBroadcastReceiver \
-    WhisperPush
+    CellBroadcastReceiver
 
 # Mms depends on SoundRecorder for recorded audio messages
 PRODUCT_PACKAGES += \
