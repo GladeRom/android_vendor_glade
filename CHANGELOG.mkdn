@@ -1,7 +1,373 @@
-Glade Rom 
+Glade Rom Changelog
 ===============
 
-Visit https://github.com/TeamGlade for full source and git access.
+====================
+     07-05-2015
+====================
 
-Visit http://gerrit.aogp-devs.com for our Gerrit instance.
+
+   * android/
+5660ca7 Revert "Source-built Xposed dependencies"
+f7fee7c Add Glade Updater
+
+   * build/
+192c2f3 Fix Build
+2f13b83 Build: generate Changelog.txt before system/zip & OTA
+21ae45f Introduce New Squisher/Opticharger for Lollipop (2/2)
+aa862c6 "LMY48G"
+cb36b75 "LMY48F"
+651c1d9 "LMY48E"
+c2133b1 "LMY48D"
+5454f12 "LMY48C"
+4e7e402 Really include drawables for all densities.
+f4a474b Revert "build: use common factory script and input more parameters"
+fecffad build: use common factory script and input more parameters
+7cda32d Add PRODUCT_PACKAGES for Google's prebuilt WebView
+ea4cc4a Fix "arter97 optimizations"
+67ca8d2 Add arter97 optimizations
+4f41b64 Apply Cortex-A15 optimizations for Krait
+205a6ad Add SuperSU to Glade [2/2]
+5cba30f definitions.mk: look for definitions.mk in device/*/build also
+e6f89f4 Glade Build Setup
+c474b5d Correct path for roomservice.py
+8107a20 roomservice: switch to omni's roomservice and Glade'fy
+91f4a2b build: Add option to disable block-based ota
+
+   * frameworks/base/
+c861df5 SystemUI: Fix FC when mHandler is null
+
+   * packages/apps/OTACenter/
+a2aca8c Update for GladeRom
+
+   * packages/apps/Settings/
+a35d2c9 Integrate GladeRom Updater
+
+   * vendor/glade/
+d3d4cb8 Add changelog generator (1/2)
+77c5e7a Add New Squisher/Opticharger for Lollipop (1/2)
+b64cfa6 Prepare for Glade Updater
+147d245 Additional APN cleanup and modifications
+0af5230 Thou shalt not nano
+d7d5b03 Vendor: Fix "mts" carrier password
+bb8a654 Build KernelAdiutor
+084881c Replace typical messaging app with F-Droid prebuilt SMSSecure v0.9
+581710f Replace Trebuchet with GladeLauncher
+3d810a9 Additional European MVNOs
+4747efc Massive APN Update
+05c61dc Update SuperSU-v2.49.zip
+4e853b8 Add SuperSU to Glade [1/2]
+c2f4f22 cm_stats is cleaned for settings so no need here
+08949ff This is Version 3.1
+3792135 vendor/cm: overlay start for ProfileService in external framework.
+fe83fd4 Remove obsolete /cache/dalvik-cache stuff from init.local.rc
+87f596b Update Default Wallpaper for Glade
+2e6dd65 Glade Custom Bootanimations Made By : Yugeet Finishing : @MardonHH
+f29f826 Add Our Build Script
+
+====================
+     07-04-2015
+====================
+
+
+   * android/
+05a7fb6 Source-built Xposed dependencies
+0da2087 5.1.1_r3 -> 5.1.1_r6
+
+   * external/flac/
+78683d1 Merge tag 'android-5.1.1_r5' into cm-12.1
+
+   * external/libpng/
+3ffd050 Merge tag 'android-5.1.1_r5' into cm-12.1
+
+   * external/libvpx/
+bd6949a Merge tag 'android-5.1.1_r5' into cm-12.1
+
+   * frameworks/av/
+ad86519 libmedia: restrict nuplayer from using track offload
+287ca9e CameraService: Bump up the maximum number of cameras
+
+   * frameworks/base/
+51cd8e8 DO NOT MERGE Don't take flags when creating app widget config activity.
+793186e Remove implementation of deprecated method.
+736fa3f Make Bitmap_createFromParcel check the color count. DO NOT MERGE
+4579261 Do not paint shadow if outside of the clip area
+58f0ea5 Add Asset management support for fonts.
+b3ccb59 Mark persistent apps as such when the ProcessRecord is created
+ca58d70 Revert "Wait until the Keyguard is drawn to dismiss the boot dialog."
+d184f8a Enable Dessert Cake dream
+b7f9711 Disable Lots of Debugging
+8ad471e Speed Up Long Press Timeout
+fb95d8f Speed Up Recents Menu
+3aa4a1e Speed up Statusbar
+4a160e0 bless python versions newer than 2.6
+61462bd Enable Non Market Apps/Disable Package Verifier
+0036652 core:jni: Disable Strict Aliasing
+062ca56 SystemUI: This TODO can be solved actually
+2a1f7d8 SystemUI: add materialized navring drawables
+af41579 Live Volume Steps [1/2]
+71b4a0d base: fix battery stats wakelock crazyness
+bfb4866 Add turn off action to WiFi Tether notification
+19b4bed Status bar notification: Use Material icons for missed calls
+47ea41a SlimSeekBarPreference: clean up a wee bit
+2ea5804 Frameworks: port SlimSeekBarPreference to Glade
+1e76043 base: DocumentsUI: catch NPE
+9126018 DocumentsUI: Fix build and API changes for lollipop
+2daf0c9 DocumentsUI: fix recursive delete
+1d3a702 DocumentsUI: catch berserk apps on building recents
+733182c base: DocumentUI: fix a few issues handling remote content
+8e156e5 DocumentsUI: Remove catch-all statements
+27af4c7 Replaced custom strings with Android defaults
+20a3734 DocumentsUI: Allow open files instead of URIs
+fefe1d4 Fix Icon size in DocumentsUI
+8d404d5 DocumentsUI: Add a standalone File Manager
+af5c6df FWB: omniswitch as default recents (squash) (1/2)
+383de24 policy: Show a simple dialog about optimizing apps
+f2a5232 Store manifest hash code in PackageParser.Package
+
+   * frameworks/compile/slang/
+79ee331 Merge tag 'android-5.1.1_r5' into cm-12.1
+
+   * frameworks/opt/colorpicker/
+2a8218e Merge tag 'android-5.1.1_r5' into cm-12.1
+
+   * frameworks/opt/photoviewer/
+7fd5361 Merge tag 'android-5.1.1_r5' into cm-12.1
+
+   * frameworks/support/
+fc5b106 Merge tag 'android-5.1.1_r5' into cm-12.1
+
+   * hardware/qcom/audio-caf/msm8960/
+298039c audio: Refactor amplifier_set_device logic
+
+   * packages/apps/Settings/
+cda94e1 Fix volume steps not showing chosen options in their respective settings - Also follow  a better coding style
+d524d1a Live Volume Steps [2/2]
+68e58e3 Revert "Add Dark Material theme to Settings"
+90890e7 Revert "Add Dark Material theme to Settings"
+15846c3 Organize stuff for Glade
+
+====================
+     07-03-2015
+====================
+
+
+   * device/qcom/sepolicy/
+238dd07 sepolicy: add permissions to set system property
+881eea7 sepolicy: add rule to support tcm write on dpmwrapper socket
+42fc5b9 sepolicy: allow dpmd to create self socket and netlink socket.
+af2c6fd sepolicy: allow dpmd to connect to system_server
+6fdf10d sepolicy: Allow iptable rule addition when WQE is enabled
+6599f2c cnd: Allow nims to be removed
+324ba9f Sepolicy: add rule to support ATP feature
+
+   * external/libnfc-nci/
+4b08a00 Merge branch 'cm-12.1-nxp' into HEAD
+48ea540 pn547: Don't attempt to downgrade firmware
+
+   * external/stagefright-plugins/
+e9eddbf stagefright-plugins: Disable lowres
+
+   * hardware/qcom/keymaster/
+8e39456 keymaster: fix build for msm8994
+f33d1ad keystore: Enable building on msm8992 and msm8994
+
+   * packages/apps/Settings/
+2d93fde Merge pull request #1 from nilac8991/gr-3.1
+6a6792d Add Dark Material theme to Settings
+87fc504 Add Dark Material theme to Settings
+
+====================
+     07-02-2015
+====================
+
+
+   * android/
+71d0207 add FloatingActionButton app for KernelAdiutor
+2de338d fix remote for kernel Auditor
+a8cb617 Track Kernel Auditor
+
+   * device/lge/g3-common/
+3d70230 Enable Doze and its config
+
+   * frameworks/base/
+7a4c342 Navigation Bar Custom height [1/2]
+121897f aapt: Implement --compress option
+9c133c8 aapt: Default to 0 compression ratio
+7157d72 aapt: Don't compress qmg, wbp and arsc assets
+c57b0fe Fingerprint: disallow API calls when fingerprint is not available
+
+   * hardware/ti/wlan/
+1cdbebc ti: Add interface_mtu request
+
+   * packages/apps/BluetoothExt/
+9b7bdf8 Automatic translation import
+
+   * packages/apps/Calculator/
+51f90c4 Automatic translation import
+
+   * packages/apps/Camera2/
+3f22bec Automatic translation import
+
+   * packages/apps/Contacts/
+f81964f Automatic translation import
+
+   * packages/apps/ContactsCommon/
+68932a5 Automatic translation import
+
+   * packages/apps/DeskClock/
+9c89be4 Automatic translation import
+
+   * packages/apps/Eleven/
+3acc661 Automatic translation import
+
+   * packages/apps/Email/
+aa11058 Automatic translation import
+
+   * packages/apps/Gallery2/
+7a90da1 Automatic translation import
+
+   * packages/apps/InCallUI/
+a27f9ea Automatic translation import
+
+   * packages/apps/LockClock/
+b84dc10 Automatic translation import
+
+   * packages/apps/Settings/
+f666083 Add glade folder into proguard
+bda8748 Fix patch derpage for fingerprint settings
+3f524a4 Automatic translation import
+c9e5777 Implement Kernel Auditor (Tweaker) (1/2)
+308352d Settings: Remove Performance Settings
+a4c8c25 Fix Build
+e8b69b7 Navigation Bar Custom Height [2/2]
+00fad81 Add Glade Control To Settings - Using Viewpager layout - Add Navigation Settings as Fragment
+b0b5877 development: remove setting for updating recovery
+
+   * packages/apps/SoundRecorder/
+279e7c3 Automatic translation import
+
+   * packages/apps/Stk/
+2f91312 Automatic translation import
+
+   * packages/apps/Terminal/
+70bf0bf Automatic translation import
+
+   * packages/apps/ThemeChooser/
+20b9f90 Automatic translation import
+
+   * packages/apps/TvSettings/
+4574978 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+1bb85d9 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+33da3c2 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+4d94436 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+b016009 Automatic translation import
+
+   * packages/services/Telecomm/
+9cf9699 Automatic translation import
+
+   * packages/services/Telephony/
+07866b3 Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+5cf246b Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+185c9a3 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+553bd98 Automatic translation import
+
+   * vendor/cmsdk/
+1ba6ee2 Automatic translation import
+
+====================
+     07-01-2015
+====================
+
+
+   * android/
+3f8636b track  our Launcher
+92d2113 trackout frameworks/av
+b22caa6  Add remote for devices and use our webview
+
+   * frameworks/av/
+1f97713 Enable -Os back to ID3
+f752aa4 Enable -Os back to audioflinger
+
+   * frameworks/base/
+d642809 [1/2] base: Implement ambient display as Active Display Currently Ambient Display fully support if device has   Significant motion sensor and wake gesture sensor
+bd34525 services: fix memory leak in ColorFade
+36d5758 Screen pinning improvements
+680f562 core: Update GPS Icons to be more material
+41579bf Use 24dip of height for statusbar - M style
+c496d45 Wait until the Keyguard is drawn to dismiss the boot dialog.
+b25dd02 WhisperPush: allowing whitelisting of needed framework permissions
+b0739ea Add default for Settings.System.DOUBLE_TAP_SLEEP_GESTURE.
+e7629de SystemUI: recalculate clock position on removing empty shade views
+3a5d56d Enable fingerprint option in Settings [1/3]
+23ca533 Fingerprint [1/2]: Numerous Fingerprint Improvements
+8eec3a0 density: do not apply to virtual displays
+844b229 SystemUI: hide navigation bar faster in SetupWizard
+
+   * frameworks/webview/
+32a4e68 Restore arm64 lib
+b2a6f03 extract.sh: Remove Verbose Quantization
+df8e10d Update to 44.0.2403.64
+23ffe0a Update WebView 43.0.2357.121 to 44.0.2403.39
+7b1e06f extract.sh: Compress pngs using pngquant
+f4b901a extract: Update to remove webview dir
+7664f81 Update WebView 43.0.2357.86 to 43.0.2357.121
+990f0ab Update WebView 43.0.2357.76 to 43.0.2357.86
+a98b76e Update WebView 42.0.2311.138 to 43.0.2357.76
+c71762d Do not resign webview.apk
+b3c7707 Follow Android 5.0+ system app library style #2
+f33ba3f Use p7zip to rebuild webview.apk
+a0bc774 Revert "Follow Android 5.0+ system app library style"
+b39efc1 Remove lib within the webview.apk
+a0f0ec2 Follow Android 5.0+ system app library style
+f9fb17e Convert this repository to provide Google's prebuilt WebView
+6cc4029 Remove com.android.webview package
+
+   * packages/apps/Contacts/
+b267d4b Contacts: Fixed "%s" appearing in contact options in some languages
+
+   * packages/apps/GladeLauncher/
+dfdbb4a Glade Branding
+5ef22f7 Tranparent background
+6cd6d02 Allow some customization in Launcher3
+0d7ce5a Workspace: Allow resizing any widget
+d51ca30 Update protobuf library from 2.3 to 2.6.
+9a65e7d Shorten animations
+4e09d3f Shorten Scroll Delay
+e5f7da5 Put some SNAP into it!
+d7236b4 Launcher Model: Change Priority
+
+   * packages/apps/Settings/
+87da4f2 [2/2] Settings: Ambient Display configurations
+7ebb464 Launch SuperSU from Settings
+33581a9 Add settings header for all sizes
+df0ff7a Attempt a custom settings header
+a4be2e4 Glade Logo in about settings... thanks to AOKP
+e531f90 Show dialog if max number of fingerprints has been reached
+2329b39 Rename/Delete UI in fingerprint list
+dd289e1 Enable fingerprint option in Settings [3/3]
+1ed12bd Settings: add wifi ap dialog 'show password' default overlay
+ac759c5 settings: Fix developer options crash when mBackupManager is null
+2681b40 Settings: Refactor to point at Profiles in CMSDK.
+fdc7f6f Settings: Make the Wifi regions translatable
+
+   * system/core/
+e05665a Add Wileyfox VID part 2
+429e98c Add Wileyfox VID
+
+   * vendor/cmsdk/
+cc97903 CMSDK: Make sure to initialize ProfileTriggerHelper.
 
