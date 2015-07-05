@@ -39,6 +39,7 @@ GLADE_DISPLAY_BUILDSTATUS := $(GLADE_BUILDTYPE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(GLADE_VERSION) \
+    glade.ota.version= $(shell date -u +%Y%m%d) \
     ro.glade.version=$(VERSION)-$(GLADE_BUILDTYPE)
 
 PRODUCT_PROPERTY_OVERRIDES += \

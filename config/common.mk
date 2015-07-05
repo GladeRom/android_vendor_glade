@@ -140,6 +140,7 @@ PRODUCT_PACKAGES += \
     AudioFX \
     GladeWallpapers \
     Eleven \
+    OTACenter \
     LockClock \
     KernelAdiutor
 
